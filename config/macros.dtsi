@@ -38,5 +38,5 @@ macro_char_agrave: macro_char_agrave{
 compatible = "zmk,behavior-macro";
 label = "macro_char_agrave";
 #binding-cells = <0>;
-bindings = <&kp LEFT_CONTROL>, <&kp LEFT_SHIFT>, <&kp U>, <&kp NUMBER_0>, <&kp S>, <&kp I>, <&kp S>;
+bindings = <&kp LEFT_CONTROL>, <&kp LEFT_SHIFT>, <&kp U>, <&kp NUMBER_0>, <&kp NUMBER_0>, <&kp E>, <&kp NUMBER_0>;
 };
