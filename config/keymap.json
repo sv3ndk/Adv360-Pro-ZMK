@@ -23,7 +23,7 @@
     ], [
        "&trans",             "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans",    "&trans",        "&trans",               "&trans",                "&trans",    "&trans", "&trans",
        "&trans",             "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans",    "&trans", "&kp BACKSLASH", "&kp LEFT_PARENTHESIS", "&kp RIGHT_PARENTHESIS", "&kp TILDE",  "&none",
-       "&trans", "&macro_char_agrave", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&kp GRAVE",      "&kp PLUS",       "&kp LEFT_BRACE",       "&kp RIGHT_BRACE", "&kp MINUS", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&kp GRAVE",      "&kp PLUS",       "&kp LEFT_BRACE",       "&kp RIGHT_BRACE", "&kp MINUS", "&trans",
        "&trans",             "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",    "&trans",      "&kp PIPE",     "&kp LEFT_BRACKET",     "&kp RIGHT_BRACKET", "&kp EQUAL", "&trans",
        "&trans",             "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans",               "&trans",                "&trans",    "&trans", "&trans"
     ]
