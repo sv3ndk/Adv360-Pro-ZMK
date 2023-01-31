@@ -34,12 +34,12 @@ label = "macro_kinesis";
 #binding-cells = <0>;
 bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
 };
-macro_cap_agrave: macro_cap_agrave{
+macro_agrave_cap: macro_agrave_cap{
 compatible = "zmk,behavior-macro";
-label = "macro_cap_agrave";
+label = "macro_agrave_cap";
 #binding-cells = <0>;
-wait-ms = <40>;
-tap-ms = <40>;
+wait-ms = <10>;
+tap-ms = <10>;
 bindings 
   = <&macro_press &kp LEFT_CONTROL>, 
     <&macro_press &kp LEFT_SHIFT>, 
@@ -52,12 +52,40 @@ macro_agrave: macro_agrave{
 compatible = "zmk,behavior-macro";
 label = "macro_agrave";
 #binding-cells = <0>;
-wait-ms = <40>;
-tap-ms = <40>;
+wait-ms = <10>;
+tap-ms = <10>;
 bindings 
   = <&macro_press &kp LEFT_CONTROL>, 
     <&macro_press &kp LEFT_SHIFT>, 
     <&macro_tap &kp U &kp NUMBER_0 &kp NUMBER_0 &kp E &kp NUMBER_0>,
+    <&macro_release &kp LEFT_SHIFT>,
+    <&macro_release &kp LEFT_CONTROL>
+    ;
+};
+macro_eacute_cap: macro_eacute_cap{
+compatible = "zmk,behavior-macro";
+label = "macro_eacute_cap";
+#binding-cells = <0>;
+wait-ms = <10>;
+tap-ms = <10>;
+bindings 
+  = <&macro_press &kp LEFT_CONTROL>, 
+    <&macro_press &kp LEFT_SHIFT>, 
+    <&macro_tap &kp U &kp NUMBER_0 &kp NUMBER_0 &kp C &kp NUMBER_9>,
+    <&macro_release &kp LEFT_SHIFT>,
+    <&macro_release &kp LEFT_CONTROL>
+    ;
+};
+macro_eacute: macro_eacute{
+compatible = "zmk,behavior-macro";
+label = "macro_eacute";
+#binding-cells = <0>;
+wait-ms = <10>;
+tap-ms = <10>;
+bindings 
+  = <&macro_press &kp LEFT_CONTROL>, 
+    <&macro_press &kp LEFT_SHIFT>, 
+    <&macro_tap &kp U &kp NUMBER_0 &kp NUMBER_0 &kp E &kp NUMBER_9>,
     <&macro_release &kp LEFT_SHIFT>,
     <&macro_release &kp LEFT_CONTROL>
     ;
